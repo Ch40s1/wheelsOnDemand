@@ -2,10 +2,12 @@
 
 For more information on MIT visit https://opensource.org/licenses/MIT
 
+
 # Wheels On Demand
 ## Description
 
 MERN Stack Application, a rental platform that allows users to book cars. This is a ongoing project and is by no chance complete 😅. The site, does however, fully work. The login and jwt are in the project but just commented out. I will be updating the website and making it better over time. It is a learning process for me and I hope to make it a fully functional website one day.
+## Tech Used: [![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js,mongodb,express,react,nodejs,apollo,graphql)](https://skillicons.dev)
 
 ## Table of Contents
 
@@ -70,7 +72,7 @@ SOFTWARE.
 ## Features
 
 - React
-- login/signup (coming soon)
-- JWT (coming soon)
-- apollo server (coming soon)
+- login/signup added v1.0.0
+- JWT added v1.0.0
+- apollo server added v1.0.0
 - Cookie/Persistent data (coming soon)
