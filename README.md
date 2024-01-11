@@ -6,7 +6,7 @@ For more information on MIT visit https://opensource.org/licenses/MIT
 # Wheels On Demand
 ## Description
 
-MERN Stack Application, a rental platform that allows users to book cars. This is a ongoing project and is by no chance complete 😅. The site, does however, fully work. The login and jwt are in the project but just commented out. I will be updating the website and making it better over time. It is a learning process for me and I hope to make it a fully functional website one day.
+MERN Stack Application, a rental platform that allows users to book cars. This is a ongoing project and is by no chance complete 😅. The site, does however, fully work. I will be updating the website and making it better over time. It is a learning process for me and I hope to make it a fully functional website one day.
 ## Tech Used: [![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js,mongodb,express,react,nodejs,apollo,graphql)](https://skillicons.dev)
 
 ## Table of Contents
@@ -27,9 +27,10 @@ To get started follow these steps:
 3. type in npm run build
 4. then npm run develop
 
-## Usage
+## Usage/Notes/Goals
 
-Can go through the rental process from start to finish.
+The site allows for account creation, but ** PLEASE DONT USE PERSONAL EMAILS ** I recommend using something like foo@test.com or something of the sort. The site goes through the whole process or renting a vehicle. Something to note is that the site needs more work on the backend. Although the login and signup work, it is not complete and should not vbe used with actual emails. The goal for the site it to learn the ins/outs of a full stack website, so that I can transfer that ovet to a more polished site.
+
 
 
 ## Credits

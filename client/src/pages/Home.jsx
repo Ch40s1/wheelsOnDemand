@@ -105,17 +105,17 @@ const Home = () => {
           bodyContent="Please fill out all fields."
         />
 
-        <div className='d-flex justify-content-start col-10 text-white'>
+        <div className='d-flex justify-content-start col-10 col-md-8 col-md-12 text-white'>
           <h1 style={style.font}>Journey with us!</h1>
         </div>
-        <div className='border px-2 rounded col-10 bg-white'>
-          <div className='ml-5 px-5'>
+        <div className='border px-2 rounded col-10 col-md-12 bg-white'>
+          <div className='ml-5'>
             <h3 style={style.font}>Reserve A Vehicle</h3>
           </div>
           <div className='d-flex mb-5'>
-            <Form className="d-flex justify-content-around align-items-center">
+            <Form className="d-block d-md-flex justify-content-around align-items-center">
 
-              <Form.Group controlId="formLocation" className='col-3'>
+              <Form.Group controlId="formLocation" className=''>
                 <Form.Label>Pick-up location</Form.Label>
                 <Form.Control
                   as="select"
@@ -131,7 +131,7 @@ const Home = () => {
                 </Form.Control>
               </Form.Group>
 
-              <Form.Group controlId="formDate">
+              <Form.Group controlId="formDate" className=''>
                 <Form.Label>Pick-up Date</Form.Label>
                 <Form.Control
                   type="date"
