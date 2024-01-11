@@ -8,7 +8,7 @@ import tireIcon from '../img/tireIcon.png'
 
 const styles = {
   logoSize: {
-    fontSize: '2rem',
+    // fontSize: '2rem',
     fontFamily: 'Roboto Condensed',
     borderBottom: '6px solid #fc0',
     opacity: '10',
@@ -40,7 +40,7 @@ const styles = {
 
 
 export default function AppNavbar() {
-  const expand = 'md';
+  const expand = 'sm';
 
   const { data } = useQuery(GET_ME);
   const userData = data?.me || {};
@@ -68,7 +68,7 @@ export default function AppNavbar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                title?
+                Navigate
               </Offcanvas.Title>
             </Offcanvas.Header>
 

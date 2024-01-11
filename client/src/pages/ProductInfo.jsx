@@ -96,23 +96,24 @@ const ProductInfo = () => {
   return (
     <>
       <div>
-        <div className='d-flex gap-5 text-white' style={styles.secondaryColor}>
-          <div className='border-end px-4 ml-5'>
-            <h4>
+        <div className='d-flex col-12 text-white' style={styles.secondaryColor}>
+          <div className='border-end col-3'>
+          {/* px-4 ml-2  */}
+            <h4 className=''>
               Pick up location: <br />{pickUpLocation}
             </h4>
           </div>
-          <div className='border-end px-4 ml-5'>
+          <div className='border-end col-3'>
             <h4>
               Pick up time: <br />{pickUpTime}
             </h4>
           </div>
-          <div className='border-end px-4 ml-5'>
+          <div className='border-end col-3'>
             <h4>
               Pick up date: <br />{pickUpDate}
             </h4>
           </div>
-          <div className='border-end px-4 ml-5'>
+          <div className='col-3'>
             <h4>
               Drop off date: <br />{dropOffDate}
             </h4>
